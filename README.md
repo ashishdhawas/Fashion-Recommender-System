@@ -20,23 +20,28 @@ To get started easily, we also have exposed some of the key product categories a
 
 To run the provided Streamlit app for the Fashion Recommender System, you'll need a set of dependencies installed in your Python environment. Here's a list of requirements:
 
-Python: Ensure you have Python installed on your system. You can download it from python.org.
+**Python:** Ensure you have Python installed on your system. You can download it from python.org.
 
-Packages and Libraries:
+**Packages and Libraries:**
 
 **streamlit:** The main library for creating the interactive web app.
+
 **link:** https://docs.streamlit.io/get-started
 
 **PIL:** Python Imaging Library, used for image processing.
+
 **link:** https://pillow.readthedocs.io/en/stable/
 
 **numpy:** For numerical operations.
+
 **link:** https://numpy.org/doc/
 
 **tensorflow:** The deep learning framework used for the ResNet50 model.
+
 **link:** https://www.tensorflow.org/
 
 **scikit-learn:** Used for Nearest Neighbors algorithm.
+
 **link:** https://scikit-learn.org/stable/modules/neighbors.html
 
 **os:** Standard Python library for interacting with the operating system.
@@ -51,19 +56,23 @@ pip install tensorflow
 pip install scikit-learn
 
 **Pre-trained ResNet50 Model:** The app uses the ResNet50 model with pre-trained ImageNet weights. These weights are automatically downloaded by TensorFlow when you instantiate the model.
+
 **keras pre-trained model link:** https://keras.io/api/applications/
 
 **Image Dataset:** If you want to train and fine-tune the model or use a different model, you might need a labeled image dataset.
+
 **link:** https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 
 **Miscellaneous:**
 
 **A web browser:** Streamlit apps are accessed through a web browser.
+
 An internet connection: Needed for downloading the ResNet50 weights during the first run.
 
 **Recommended:**
 
 **pickle:** Used for loading the pre-computed features and filenames from pickle files.
+
 **tqdm:** For displaying progress bars during feature extraction (optional but useful for large datasets).
 
 **you can install these dependencies using:**

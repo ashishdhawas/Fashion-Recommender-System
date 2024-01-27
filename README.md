@@ -17,7 +17,11 @@ To get started easily, we also have exposed some of the key product categories a
 
 ***Project Workflow:***
 
-1.Import model: Import CNN Pre-trained ResNet50 Model and used this model to extract the features from the images.
+1. Import model: Import CNN Pre-trained ResNet50 Model.
+
+2. Extract Features: Extract Features from a given dataset using ResNet50 model and store it in pickle file for further use.
+
+3. Generate Recommendation: Generate recommendation using K-Nearest Neighbor(KNN) Algorithm.
 
 
 ***Requirements:***

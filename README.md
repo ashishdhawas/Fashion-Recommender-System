@@ -78,7 +78,7 @@ pip install scikit-learn
 
 **A web browser:** Streamlit apps are accessed through a web browser.
 
-An internet connection: Needed for downloading the ResNet50 weights during the first run.
+**An internet connection:** Needed for downloading the ResNet50 weights during the first run.
 
 **Recommended:**
 

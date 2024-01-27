@@ -24,25 +24,25 @@ Python: Ensure you have Python installed on your system. You can download it fro
 
 Packages and Libraries:
 
-streamlit: The main library for creating the interactive web app.
-link: https://docs.streamlit.io/get-started
+**streamlit:** The main library for creating the interactive web app.
+**link:** https://docs.streamlit.io/get-started
 
-PIL: Python Imaging Library, used for image processing.
-link: https://pillow.readthedocs.io/en/stable/
+**PIL:** Python Imaging Library, used for image processing.
+**link:** https://pillow.readthedocs.io/en/stable/
 
-numpy: For numerical operations.
-link: https://numpy.org/doc/
+**numpy:** For numerical operations.
+**link:** https://numpy.org/doc/
 
-tensorflow: The deep learning framework used for the ResNet50 model.
-link: https://www.tensorflow.org/
+**tensorflow:** The deep learning framework used for the ResNet50 model.
+**link:** https://www.tensorflow.org/
 
-scikit-learn: Used for Nearest Neighbors algorithm.
-link: https://scikit-learn.org/stable/modules/neighbors.html
+**scikit-learn:** Used for Nearest Neighbors algorithm.
+**link:** https://scikit-learn.org/stable/modules/neighbors.html
 
-os: Standard Python library for interacting with the operating system.
+**os:** Standard Python library for interacting with the operating system.
 
 
-You can install these dependencies using the following command:
+**You can install these dependencies using the following command:**
 
 pip install streamlit 
 pip install Pillow 
@@ -50,23 +50,25 @@ pip install numpy
 pip install tensorflow 
 pip install scikit-learn
 
-Pre-trained ResNet50 Model: The app uses the ResNet50 model with pre-trained ImageNet weights. These weights are automatically downloaded by TensorFlow when you instantiate the model.
-keras pre-trained model link: https://keras.io/api/applications/
+**Pre-trained ResNet50 Model:** The app uses the ResNet50 model with pre-trained ImageNet weights. These weights are automatically downloaded by TensorFlow when you instantiate the model.
+**keras pre-trained model link:** https://keras.io/api/applications/
 
-Image Dataset: If you want to train and fine-tune the model or use a different model, you might need a labeled image dataset.
-link: https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
+**Image Dataset:** If you want to train and fine-tune the model or use a different model, you might need a labeled image dataset.
+**link:** https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 
-Miscellaneous:
-A web browser: Streamlit apps are accessed through a web browser.
+**Miscellaneous:**
+
+**A web browser:** Streamlit apps are accessed through a web browser.
 An internet connection: Needed for downloading the ResNet50 weights during the first run.
 
-Recommended:
-pickle: Used for loading the pre-computed features and filenames from pickle files.
-tqdm: For displaying progress bars during feature extraction (optional but useful for large datasets).
+**Recommended:**
 
-You can install these dependencies using:
+**pickle:** Used for loading the pre-computed features and filenames from pickle files.
+**tqdm:** For displaying progress bars during feature extraction (optional but useful for large datasets).
+
+**you can install these dependencies using:**
 
 pip install pickle5 
 pip install tqdm
 
-Note: The exact versions of these libraries may change over time, so it's a good practice to check for the latest versions and update accordingly. You can create a requirements.txt file with the required packages and versions for better project reproducibility.
+**Note:** The exact versions of these libraries may change over time, so it's a good practice to check for the latest versions and update accordingly. You can create a requirements.txt file with the required packages and versions for better project reproducibility.

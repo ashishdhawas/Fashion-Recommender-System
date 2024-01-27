@@ -17,6 +17,7 @@ To get started easily, we also have exposed some of the key product categories a
 
 
 ***Requirements:***
+
 To run the provided Streamlit app for the Fashion Recommender System, you'll need a set of dependencies installed in your Python environment. Here's a list of requirements:
 
 Python: Ensure you have Python installed on your system. You can download it from python.org.

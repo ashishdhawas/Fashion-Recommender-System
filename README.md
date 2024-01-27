@@ -15,6 +15,10 @@ Each product is identified by an ID like 42431. You will find a map to all the p
 
 To get started easily, we also have exposed some of the key product categories and it's display name in styles.csv.
 
+***Project Workflow:***
+
+1.Import model: Import CNN Pre-trained ResNet50 Model and used this model to extract the features from the images.
+
 
 ***Requirements:***
 
@@ -39,7 +43,8 @@ To run the provided Streamlit app for the Fashion Recommender System, you'll nee
 
 **tensorflow:** The deep learning framework used for the ResNet50 model.
 
-**link:** https://www.tensorflow.org/
+**How to setup TensorFlow 2.3.1 — CPU/GPU (Windows 10):**
+**link:** https://arsanatl.medium.com/how-to-setup-tensorflow-2-3-1-cpu-gpu-windows-10-e000e7811e2b
 
 **scikit-learn:** Used for Nearest Neighbors algorithm.
 

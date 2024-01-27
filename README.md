@@ -18,6 +18,7 @@ To get started easily, we also have exposed some of the key product categories a
 
 ***Requirements:***
 
+
 To run the provided Streamlit app for the Fashion Recommender System, you'll need a set of dependencies installed in your Python environment. Here's a list of requirements:
 
 **Python:** Ensure you have Python installed on your system. You can download it from python.org.
@@ -50,10 +51,20 @@ To run the provided Streamlit app for the Fashion Recommender System, you'll nee
 **You can install these dependencies using the following command:**
 
 pip install streamlit 
+
+
 pip install Pillow 
+
+
 pip install numpy 
+
+
 pip install tensorflow 
+
+
 pip install scikit-learn
+
+
 
 **Pre-trained ResNet50 Model:** The app uses the ResNet50 model with pre-trained ImageNet weights. These weights are automatically downloaded by TensorFlow when you instantiate the model.
 
@@ -78,6 +89,10 @@ An internet connection: Needed for downloading the ResNet50 weights during the f
 **you can install these dependencies using:**
 
 pip install pickle5 
+
+
 pip install tqdm
+
+
 
 **Note:** The exact versions of these libraries may change over time, so it's a good practice to check for the latest versions and update accordingly. You can create a requirements.txt file with the required packages and versions for better project reproducibility.

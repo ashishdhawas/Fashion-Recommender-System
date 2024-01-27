@@ -9,7 +9,7 @@ Developed a Streamlit Application which is a Fashion Recommender System. Users c
 
 DataSet Link: https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 
-About DataSet:
+***About DataSet:***
 
 Each product is identified by an ID like 42431. You will find a map to all the products in styles.csv. From here, you can fetch the image for this product from images/42431.jpg and the complete metadata from styles/42431.json.
 

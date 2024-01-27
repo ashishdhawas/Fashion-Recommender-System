@@ -16,7 +16,7 @@ Each product is identified by an ID like 42431. You will find a map to all the p
 To get started easily, we also have exposed some of the key product categories and it's display name in styles.csv.
 
 
-
+***Requirements:***
 To run the provided Streamlit app for the Fashion Recommender System, you'll need a set of dependencies installed in your Python environment. Here's a list of requirements:
 
 Python: Ensure you have Python installed on your system. You can download it from python.org.
